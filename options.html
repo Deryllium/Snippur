@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snippur</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="css/checkbox.css" />
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script src="scripts/external_links.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div class="right">
+                <input id="btn_close" type="button" name="btn_close" class="btn close" title="Close" />
+            </div>
+        </div>
+        <div class="content">
+            <img src="https://raw.githubusercontent.com/Deryllium/Snippur/master/img/icon.png" alt="" class="center logo">
+            <div class="center">
+                <h1 class="inset">Snippur</h1>
+                <p>
+                    Version 1.0
+                </p>
+
+                <div class="separator"></div>
+
+                <table>
+                    <tr>
+                        <td>
+                            <input id="auto-copy" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="auto-copy"></label>
+                        </td>
+                        <td>
+                            <p>Automatically copy image link</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="auto-open" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="auto-open"></label>
+                        </td>
+                        <td>
+                            <p>Automatically open Imgur page</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="run-in-background" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="run-in-background"></label>
+                        </td>
+                        <td>
+                            <p>Run in background</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="run-on-startup" class="cmn-toggle cmn-toggle-round" type="checkbox">
+                            <label for="run-on-startup"></label>
+                        </td>
+                        <td>
+                            <p>Run on startup</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <div id="footer">
+                    <p class="tiny-text">
+                        Built with Electron<br />
+                        Using <a href="http://odyniec.net/projects/imgareaselect/" class="js-external-link">imgAreaSelect</a> and <a href="https://github.com/asvd/dragscroll" class="js-external-link">dragscroll</a>  |
+                        Icons by <a href="https://icons8.com/" class="js-external-link">Icons8</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/window.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/options.js"></script>
+</body>
+</html>

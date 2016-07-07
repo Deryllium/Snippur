@@ -1,0 +1,20 @@
+{
+  "name": "snippur",
+  "version": "1.0.0",
+  "description": "A cross-platform snapshot application which allows you to upload images directly to Imgur.",
+  "main": "index.js",
+  "author": "Deryllium <reeceafielding@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "electron-json-storage": "^2.0.0",
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.5"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . "
+  },
+  "dependencies": {
+    "electron-json-storage": "^2.0.0"
+  }
+}

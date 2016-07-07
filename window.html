@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snippur</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script src="scripts/external_links.js"></script>
+    <script src="scripts/dragscroll.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="progress" class="overlay"></div>
+        <div id="menu">
+            <div class="right">
+                <!--<input id="btn_details" type="button" name="btn_details" class="btn details" title="Details" />-->
+                <input id="btn_options" type="button" name="btn_options" class="btn options" title="Options" />
+                <input id="btn_close" type="button" name="btn_close" class="btn close" title="Close" />
+            </div>
+            <div class="left">
+                <input id="btn_new" type="button" name="btn_new" class="btn new" value="" title="New Snapshot" />
+                <input id="btn_copy" type="button" name="btn_copy" class="btn copy" value="" title="Copy Image" />
+                <input id="btn_save" type="button" name="btn_save" class="btn save separate" value="" title="Save Image" />
+                <span class="separator horizontal"></span>
+                <input id="btn_upload" type="button" name="btn_upload" class="btn upload" value="" title="Upload to Imgur" />
+                <!--<input id="btn_pinterest" type="button" name="btn_pinterest" class="btn pinterest" value="" title="Save on Pinterest"/>-->
+            </div>
+        </div>
+        <div id="content" class="dragscroll nochilddrag">
+            <div id="flash" class="overlay"></div>
+            <img id="snapshot" class="" src="">
+            <div class="upload-overlay">
+                <div class="load-container load8">
+                    <div class="loader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/window.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>

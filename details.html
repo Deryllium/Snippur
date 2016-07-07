@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Snippur</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script src="scripts/external_links.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <div class="right">
+                <input id="btn_close" type="button" name="btn_close" class="btn close" title="Close" />
+            </div>
+        </div>
+        <div class="content">
+            <div class="center">
+                <img id="thumbnail" class="logo img-shadow" src="">
+            </div>
+            <div id="footer">
+                <div class="details">
+                    <p>Image Link:</p>
+                    <input name="link-input" id="link-input" type="text" class="underline" readonly="readonly">
+                    <p>Direct Link:</p>
+                    <input name="direct-input" id="direct-input" type="text" class="underline" readonly="readonly">
+                    <p>Markdown Link:</p>
+                    <input name="markdown-input" id="markdown-input" type="text" class="underline" readonly="readonly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/window.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/details.js"></script>
+</body>
+</html>
